@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
+ 
+body{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+ }
+ *{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+}
+.bar{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#button{
+    background-color:#33D5FF;
+    padding: 8px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+h4{
+    text-align: left;
+    font-size: 30px;
+}
+p{
+    text-align: left;
+    font-size: 25px;
+}
+#videos{
+    background-color: black;
+}
+#img1{
+    height: 250px;
+    width: 500px;
+}
+#img2{
+    height: 250px;
+    width: 500px;
+}
+#img3{
+    height: 250px;
+    width: 500px;
+}
+.bar p{
+    color: white;
+}
+#questionbottom{
+    color: white;
+}
+
+#submit{
+color: #0099CC; /* Text color */
+background-color: transparent; /* Remove background color */
+border: 2px solid #0099CC; /* Border thickness, line style, and color */
+border-radius: 5px; /* Adds curve to border corners */
+text-transform: uppercase; /* Make letters uppercase */
+padding-top: 10px;
+padding-right: 30px;
+padding-left: 30px;
+padding-bottom: 10px;
+font-size: 20px;
+font-weight: bold;
+}
+#home{
+justify-content: center;
+}
+
+h4, p{
+    padding-left: 25px;
+}
+
+.gwa{
+    color: blue;
+}
+.gwa:hover {
+    color: dodgerblue;
+    text-decoration: underline;
+  }
+#headerbg{
+    background-image: url("https://news.harvard.edu/wp-content/uploads/2021/09/iStock-antarctica-anyaberkut-1200x800.jpg");
+}
+#img4{
+    height: 250px;
+    width: 500px;
+}
